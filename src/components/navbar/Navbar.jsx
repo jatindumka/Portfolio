@@ -180,13 +180,22 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 function Navbar() {
   const { windowWidth } = useWindowResize();
+  const [anchorNav, setAnchorNav] = useState(null);
+  const openMenu = (event) => {
+    setAnchorNav(event.currentTarget)
+  }
 
+  const closeMenu = (event) => {
+    setAnchorNav(null)
+  }
   //------------------------------------START -> MENU SHOW & HIDE-------------------------
   const [navBarState, setNavBarState] = useState(false);
 
   /*===== MENU SATE CONTROL ======*/
   const handleClickNav = () => {
     setNavBarState(!navBarState);
+    closeMenu()
+
   };
 
   /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
@@ -232,14 +241,7 @@ function Navbar() {
     document.body.classList.add(darkTheme);
   }
 
-  const [anchorNav, setAnchorNav] = useState(null);
-  const openMenu = (event) => {
-    setAnchorNav(event.currentTarget)
-  }
-
-  const closeMenu = (event) => {
-    setAnchorNav(null)
-  }
+ 
   return (
     <AppBar position='static'>
       <Toolbar >
@@ -304,7 +306,7 @@ function Navbar() {
           <IconButton onClick={openMenu} size='large' edge='start' color='inherit'>
             <MenuIcon  className='nav__logo'/>
           </IconButton>
-          <Menu offsetTop={10} onClose={closeMenu} open={Boolean(anchorNav)} sx={{ display: { xs: 'flex', md: 'none' } }}>
+          <Menu offsetTop={10} open={Boolean(anchorNav)} sx={{ display: { xs: 'flex', md: 'none' } }}>
             <MenuList>
               <MenuItem>
                 <a
