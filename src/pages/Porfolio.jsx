@@ -53,9 +53,9 @@ function Porfolio() {
   return (
     <section className='portfolio section' id='portfolio'>
       <h2 className='section__title'>Career Profile</h2>
-      <span className='section__subtitle'>My work</span>
-
-      <div className='portfolio__container container'>
+      <span className='section__subtitle'>Can add your work here like photos, downloadable pdf etc.</span>
+        
+      {/* <div className='portfolio__container container'>
         <div className='portfolio__tabs'>
           <div
             className='portfolio__button button--flex'
@@ -106,7 +106,7 @@ function Porfolio() {
         </div>
 
         {renderCurrentCategory()}
-      </div>
+      </div> */}
     </section>
   );
 }

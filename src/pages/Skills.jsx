@@ -14,21 +14,21 @@ function Skills() {
                             <div className="skills__list grid">
                                 <div className="skills__data">
                                     <div className="skills__titles">
-                                        <h3 className="skills__name">Content Development Spanish/English</h3>
+                                        <h3 className="skills__name">Website Development</h3>
                                     </div>
                                     <div className="skills__bar">
                                         <span className="skills__percentage skills__entoes"></span>
                                     </div>
                                 </div>
 
-                                <div className="skills__data">
+                                {/* <div className="skills__data">
                                     <div className="skills__titles">
                                         <h3 className="skills__name">Translations/Transcreation </h3>
                                     </div>
                                     <div className="skills__bar">
                                         <span className="skills__percentage skills__transc"></span>
                                     </div>
-                                </div>
+                                </div> */}
                                 
                                 <div className="skills__data">
                                     <div className="skills__titles">
@@ -82,14 +82,14 @@ function Skills() {
                                 </div>
                             </div>
                         
-                            <div className="skills__data">
+                            {/* <div className="skills__data">
                                 <div className="skills__titles">
                                     <h3 className="skills__name">Book Translation</h3>
                                 </div>
                                 <div className="skills__bar">
                                     <span className="skills__percentage skills__editing"></span>
                                 </div>
-                            </div>
+                            </div> */}
                             
                             <div className="skills__data">
                                 <div className="skills__titles">

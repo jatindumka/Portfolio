@@ -240,7 +240,13 @@ img {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
-
+.MuiMenu-paper{
+top: 70px !important;
+background-color: #6e57e0 !important;
+}
+.MuiAppBar-colorPrimary{
+  background-color: #6e57e0 !important
+}
 .nav__link {
   display: flex;
   flex-direction: column;
@@ -315,7 +321,7 @@ img {
 }
 
 .home__blob-img {
-  width: 160px;
+  width: 328px;
 }
 
 .home__data {
@@ -723,6 +729,7 @@ img {
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
+  flex-flow: wrap;
 }
 
 .footer__link:hover {

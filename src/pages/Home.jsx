@@ -5,7 +5,7 @@ import {
   UilMouseAlt,
   UilArrowDown,
 } from '@iconscout/react-unicons';
-import ProfileImg from '../images/profile.webp';
+import ProfileImg from '../images/profile.png';
 import 'animate.css';
 
 function Home() {
@@ -15,7 +15,7 @@ function Home() {
         <div className='home__content grid'>
           <div className='home__social'>
             <a
-              href='https://www.linkedin.com/in/vanessa-petit-662b3172/'
+              href="https://www.linkedin.com/in/jatin-dumka-94411612b/"
               target='_blank'
               rel='noreferrer'
               className='home__social-icon'
@@ -24,7 +24,7 @@ function Home() {
             </a>
 
             <a
-              href='https://www.instagram.com/vanessampetit/'
+              href='https://www.instagram.com/jatin_dumka/'
               target='_blank'
               rel='noreferrer'
               className='home__social-icon'
@@ -71,19 +71,19 @@ function Home() {
                   href={ProfileImg}
                   // y='25'
                   // x='-115'
-                  y='18'
-                  x='10'
+                  y='1'
+                  // x='110'
                 />
               </g>
             </svg>
           </div>
 
           <div className='home__data'>
-            <h1 className='home__title'>Hi, I'm Vanessa</h1>
+            <h1 className='home__title'>Hi, I'm Jatin</h1>
             <h3 className='home__subtitle'>
-              {'Bilingual Writer, Copyeditor,'}
+              {'Website Developer, Consultant and Traveller'}
             </h3>
-            <h3 className='home__subtitle2'>{'Proofreader, Translator'}</h3>
+            <h3 className='home__subtitle2'></h3>
             <a href='#contact' className='button button--flex'>
               Contact Me <UilMessage className='button__icon' />
             </a>

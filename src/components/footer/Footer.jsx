@@ -11,10 +11,10 @@ function Footer() {
         <div className="footer__container container grid">
           <div>
             <h1 className="footer__title"><a href="#home" className="footer__title">
-            Vanessa
+            Jatin
             </a>
             </h1>
-            <span className="footer__subtitle">Bilingual Writer, Copyeditor, Proofreader, Translator</span>
+            <span className="footer__subtitle">Developer, Consultant and Traveller</span>
           </div>
 
           <ul className="footer__links">
@@ -42,7 +42,7 @@ function Footer() {
 
           <div className="footer__socials">
             <a
-              href="https://www.linkedin.com/in/vanessa-petit-662b3172/"
+              href="https://www.linkedin.com/in/jatin-dumka-94411612b/"
               target="_blank"
               rel="noreferrer"
               className="footer__social"
@@ -50,7 +50,7 @@ function Footer() {
               <UilLinkedinAlt className="" />
             </a>
             <a
-              href="https://www.instagram.com/vanessampetit/"
+              href="https://www.instagram.com/jatin_dumka/"
               target="_blank"
               rel="noreferrer"
               className="footer__social"
@@ -62,7 +62,7 @@ function Footer() {
 
         <a href="mailto:juanpablorubio94@gmail.com" >
         <p className="footer__copy">
-        Made by JPR&#174; All right reserved
+        Made by Jatin&#174; All right reserved
         </p>
         </a>
       </div>

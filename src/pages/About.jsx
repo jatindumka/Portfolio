@@ -1,7 +1,7 @@
-import AboutImg from '../images/about.webp';
-import AboutImg2 from '../images/about2.webp';
-import AboutImg3 from '../images/about3.webp';
-import VaneCV from '../assets/vanessapetitcv.pdf';
+import AboutImg from '../images/about.png';
+import AboutImg2 from '../images/about2.png';
+import AboutImg3 from '../images/about3.png';
+import JatinCV from '../assets/jatincv.pdf';
 import { UilDownloadAlt } from '@iconscout/react-unicons';
 
 function About() {
@@ -14,48 +14,20 @@ function About() {
         <div className='about__data'>
           <img src={AboutImg} alt='' className='about__img' />
           <p className='about__description'>
-            Vanessa Petit is a versatile bilingual writer, editor and translator
-            with over 15 years of experience creating and translating content
-            for online media outlets, national and international magazines and
-            newspapers, social media platforms, book publishing, marketing
-            campaigns and beauty companies. She is passionate about telling
-            stories from unique angles and has a broad background that allows
-            her to write about many different topics.
+            Hey fellow wanderers! I'm Jatin, an intrepid explorer with a deep-seated love for both mountains and software.
           </p>
-          <img src={AboutImg2} alt='' className='about__img2' />
+          {/* <img src={AboutImg2} alt='' className='about__img2' /> */}
           <p className='about__description'>
-            She specializes in creative translation and transcreation helping
-            brands find their voice and organizations and institutions create
-            engaging and accurate translations in English and Spanish. Not all
-            translation projects are created equal and she understands that it’s
-            imperative to prioritize the idea behind the words to create high
-            impact meaning that resonates with target audiences. Currently, her
-            freelance stories have appeared in Marriott Bonvoy Traveler, What to
-            Expect and Common Sense Media, among other outlets. She also works
-            as a ghostwriter for StoryTerrace, where she writes biographies for
-            and about regular people narrating their lives in book form. She
-            also moonlights as a proofreader/copyeditor for marketing agencies
-            and worked as a Bilingual Communications Specialist for Avon.
+            As a traveler at heart, I thrive on the thrill of discovering new destinations, immersing myself in diverse cultures, and conquering the majestic peaks that dot our planet. Whether I'm trekking through rugged terrain, camping under the stars, or simply soaking in the breathtaking views, there's nothing quite like the feeling of being surrounded by the raw beauty of nature.
           </p>
           <br />
-          <img src={AboutImg3} alt='' className='about__img' />
+          {/* <img src={AboutImg3} alt='' className='about__img' /> */}
           <p className='about__description'>
-            Vanessa is a native English and Spanish speaker. She lived in
-            Argentina for many years and received her master’s in Political
-            Science from University of Belgrano, in Buenos Aires and her
-            bachelor’s in Journalism from Catholic University of Buenos Aires.
-            Once she returned to the United States, she worked for The
-            Associated Press, in Miami and then transferred to their New York
-            office to work on the Latin American Desk. She eventually left the
-            newsroom to work for Meredith Corporation as the Deputy Editor for
-            Ser Padres Media Group, creating content for three Spanish language
-            magazines that were first-to-market in the Hispanic parenting space
-            in the United States. She covered topics across many platforms-
-            print, online and social media- such as, values, education, culture
-            and heritage, pregnancy, beauty, health, family finance, food and
-            health. Today she lives in New York with her husband and two
-            children.
-          </p>
+          In the world of software, I'm equally passionate. With a background in Frontend Development, I'm constantly pushing the boundaries of innovation and problem-solving. From crafting elegant code to developing cutting-edge applications, I find immense satisfaction in the creative process and the endless possibilities it offers.
+          
+          But my love for adventure doesn't stop there. Whether it's embarking on spontaneous road trips, testing my limits with adrenaline-pumping activities, or seeking out hidden gems off the beaten path, I'm always up for the next great adventure.
+
+When I'm not coding or scaling mountains, you can often find me cycling, gaming, or simply plotting my next epic journey.</p>
 
           {/* <div className="about__info">
                     <div>
@@ -76,8 +48,8 @@ function About() {
 
           <div className='about__buttons'>
             <a
-              download='vanesssapetitcv'
-              href={VaneCV}
+              download='jatincv'
+              href={JatinCV}
               className='button button--flex'
             >
               Download CV
